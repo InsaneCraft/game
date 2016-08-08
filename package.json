@@ -1,0 +1,18 @@
+{
+  "name": "multiplayer-game",
+  "version": "1.0.0",
+  "description": "1. Make a new folder called multiplayer-game 2. Open CMD 3. Type `cd Desktop\\multiplayer-game` 4. Type `npm init` to tell the directory that it is a node project 5. Type `npm install --save socket.io express http` in order to install necessary project libraries 6. Open the file in sublime (Go to file > open folder) 7. Make a new file called `server.js` 8. Include the libraries using the `require()` function ```javascript var express = require('express') var socketio = require('socket.io') ``` 9. Now we've got to run the application ```javascript var app = express() var http = require('http').Server(app)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "http": "0.0.0",
+    "socket.io": "^1.4.8"
+  },
+  "devDependencies": {}
+}
